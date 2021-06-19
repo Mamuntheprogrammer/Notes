@@ -47,22 +47,62 @@
 
      # PIP(LIST) --> Python package management system (Part-2) 
 
-         1. See Installed Packages  
+#          1. See Installed Packages  
 
-                --👀> pip list
+#                 --👀> pip list
 
-        2. See Local Installed Packages 
+#         2. See Local Installed Packages 
 
-                --👀> pip list -l
+#                 --👀> pip list -l
 
-        3. Outdated Packages 
+#         3. Outdated Packages 
 
-                --👀> pip list -o 
+#                 --👀> pip list -o 
     
-        4. Up-to-date packages
+#         4. Up-to-date packages
 
-                --👀> pip list -u 
+#                 --👀> pip list -u 
 
 
 
-#                    #    PyGems.com
+# #                    #    PyGems.com
+
+
+
+#      # PIP(Freeze) --> Python package management system (Part-3) 
+
+#      **** Used for export installed modules and reinstall ****
+
+#          1. See Installed Packages with version 
+
+#                 --👀> pip Freeze
+
+#         2. Export Installed Packages into txt file
+
+#                 --👀> pip Freeze > requirements.txt
+
+#         3. Install packages from a text file (exported by Freeze) 
+
+#                 --👀>  pip install -r requirements.txt
+    
+
+
+
+
+#                   #    PyGems.com
+
+# Day-6
+
+      # Update all installed python packages with pip-review
+
+      Step 1 : Install pip-review 
+
+                🔥 --> pip isntall pip-review
+
+      Step 2 : View Packages update information
+
+                🔥 --> pip-review
+
+      Step 3 : Update all Packages
+
+                🔥 --> pip-review --interactive

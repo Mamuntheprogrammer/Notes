@@ -68,6 +68,7 @@ var age3 = (age3>20) ? "adult":(age3<10) ? "child":"young";
 
 
 // Array Find Method
+// return single value
 // When return true exit the execution
 // wont't change my main array
 // Has three parameter 1.CurrentValue 2.curentIndex 3.mainArray
@@ -95,15 +96,24 @@ console.log(result2)
 
 
 // array findindex method
+// Return index
 // same as find method just return true value index
+
+
 
 // Array filter method 
 // this return an array
 // doesn't change main array
 
+
+
+
+
 // array slice ,splice, concat method
+// return array
 
 // map Method 
+// return a new array
 
 var numbers = [1,2,3,4,5,6]
 var resul = numbers.map((a)=> a*2);
@@ -173,3 +183,64 @@ var myob3 = {
     x
 }
 
+// Spread operator ***
+
+var spOp = [1,2,3,4]
+
+var spOp2 = [...spOp,5,6,]
+
+console.log(spOp2)
+
+// Rest operator 
+// Must assign as last parameter in function
+
+function one(a,...rest){
+    console.log(a,rest)
+}
+
+one(1,2,3,7)
+
+
+// Most importing things 
+// Destructuring Objects 
+
+// Objects
+
+const user = {
+    id:221,
+    name:"Hasan",
+    age22:38,
+    education:{
+        degree:"HSC",
+    }
+};
+
+// Normal destructure 
+const {age22} = user;
+console.log(age22)
+
+// name as 
+
+const {age22:yourage} = user;
+console.log(yourage)
+
+// nested object
+
+const {education:{degree}} = user;
+
+console.log(degree)
+
+
+// default value when destructuring and name as
+
+const {education:{degree:title} = {}} = user;
+
+// ******* Array destructuring ********
+
+var anumbers = [1,2,3,4,5];
+
+var [a,b] = anumbers;
+
+var [,c,,,d]=anumbers;
+
+console.log(a,d)
