@@ -93,16 +93,16 @@
 
 # Day-6
 
-      # Update all installed python packages with pip-review
+#       # Update all installed python packages with pip-review
 
-      Step 1 : Install pip-review 
+#       Step 1 : Install pip-review 
 
-                🔥 --> pip isntall pip-review
+#                 🔥 --> pip isntall pip-review
 
-      Step 2 : View Packages update information
+#       Step 2 : View Packages update information
 
-                🔥 --> pip-review
+#                 🔥 --> pip-review
 
-      Step 3 : Update all Packages
+#       Step 3 : Update all Packages
 
-                🔥 --> pip-review --interactive
+#                 🔥 --> pip-review --interactive
