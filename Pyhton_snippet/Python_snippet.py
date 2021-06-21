@@ -106,3 +106,12 @@
 #       Step 3 : Update all Packages
 
 #                 🔥 --> pip-review --interactive
+
+
+import dis
+
+def foo():
+     print("hello")
+
+
+print(dis.dis(foo))
