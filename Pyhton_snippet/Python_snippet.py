@@ -108,10 +108,45 @@
 #                 🔥 --> pip-review --interactive
 
 
-import dis
+# import dis
 
-def foo():
-     print("hello")
+# def foo():
+#      print("hello")
 
 
-print(dis.dis(foo))
+# print(dis.dis(foo))
+
+
+# If you are using the Windows operating system
+# Make sure you have added the path to environment variables
+
+# Check python is installed or not and also the version by cmd?
+# How to run python script by cmd?
+# How to run python script with interactive shell by cmd?
+
+
+
+
+
+
+# # Check python is installed or not and also the version by cmd?
+# *** Make sure you have added the path to environment variables ***
+
+# cmd->🔥 python 
+
+# cmd->🔥 python --version
+
+# # How to run python script by cmd?
+
+# cmd->🔥 python script.py
+
+# # How to run python script with interactive shell by cmd?
+
+# cmd->🔥 python -i script.py
+
+# import os
+# # os.system('systeminfo')
+# os.system("python --version")
+
+import keyword
+print(keyword.kwlist)
