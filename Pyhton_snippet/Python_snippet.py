@@ -148,5 +148,17 @@
 # # os.system('systeminfo')
 # os.system("python --version")
 
-import keyword
-print(keyword.kwlist)
+# How to print all python keyword list ?
+
+# import keyword
+# print(keyword.kwlist)
+
+#page-31
+#Day - 9
+
+#Creating variables and assigning values
+
+# How to print docstring(documentation string) of a function, method, class, or module.
+
+import math
+print(math.__doc__)
