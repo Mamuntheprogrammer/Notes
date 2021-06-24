@@ -90,6 +90,7 @@
 
 
 #                   #    PyGems.com
+               #https://www.facebook.com/pygems
 
 # Day-6
 
@@ -161,4 +162,23 @@
 # How to print docstring(documentation string) of a function, method, class, or module.
 
 import math
+
 print(math.__doc__)
+
+
+Output : This module provides access to the mathematical functions
+defined by the C standard.
+
+
+#Day - 10
+
+
+# # Here are the available types in Python. Use type() to find out what
+# # type your object is. 
+# Text Type:          str
+# Numeric Types: int, float, complex
+# Sequence Types:     list, tuple, range
+# Mapping Type:  dict
+# Set Types:          set, frozenset
+# Boolean Type:  bool
+# Binary Types:  bytes, bytearray, memoryview
