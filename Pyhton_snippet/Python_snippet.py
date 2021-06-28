@@ -182,3 +182,26 @@ defined by the C standard.
 # Set Types:          set, frozenset
 # Boolean Type:  bool
 # Binary Types:  bytes, bytearray, memoryview
+
+
+# Day -10
+
+# Rules for variable naming:
+
+# No need to specify a data type when declaring a variable in Python, Python interpreter automatically picks the most suitable built-in
+# data type for it:
+
+# 1. Variables names must start with a letter or an underscore.
+# x = True # valid
+# _y = True # valid
+
+# 8x = False # invalid (starts with numeral)
+# $y = False #invalid (starts with symbol)
+
+# 2. The remainder of your variable name may consist of letters, numbers and underscores.
+# has_2_in_it = "Still Valid"
+
+# 3. Names are case sensitive.
+# Q = 9
+# p = Q*5
+# =>NameError: name 'Q' is not defined
