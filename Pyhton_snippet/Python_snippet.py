@@ -205,3 +205,55 @@ defined by the C standard.
 # Q = 9
 # p = Q*5
 # =>NameError: name 'Q' is not defined
+
+#Day-11
+
+# Assignment in python
+
+# When you use "=", name for the object on the left of "=" and assign the reference of the object on the left to the "="
+
+# Which is like :
+
+#           a_name = an_object
+
+#           pi = 3.14
+
+
+# You can assign multiple values to multiple variables in one line. Note that there must be the same number of
+# arguments on the right and left sides of the
+
+#           a, b, c = 1, 2, 3
+#           print(a, b, c)
+
+#           # Output: 1 2 3
+
+# Assign a single value to several variables simultaneously
+
+#           a = b = c = 1
+#           print(a, b, c)
+
+#           # Output: 1 1 1
+
+# The above is also true for mutable types (like list, dict, etc.)
+
+# x = y = [7, 8, 9] 
+# x = [13, 8, 9] 
+# print(y) 
+# # Output: [7, 8, 9]
+# print(x)
+# # Output: [13, 8, 9]
+
+
+
+# The above is also true for mutable types (like list, dict, etc.)
+
+# Unpack with dummy variable and is conventional to use the underscore (_) for assigning unwanted
+# values
+
+#           a, b, _ = 1, 2, 3
+#           print(a, b)
+
+#           # Output: 1, 2
+
+# #                   #    PyGems.com
+#                #https://www.facebook.com/pygems
