@@ -161,13 +161,13 @@
 
 # How to print docstring(documentation string) of a function, method, class, or module.
 
-import math
+# import math
 
-print(math.__doc__)
+# print(math.__doc__)
 
 
-Output : This module provides access to the mathematical functions
-defined by the C standard.
+# Output : This module provides access to the mathematical functions
+# defined by the C standard.
 
 
 #Day - 10
@@ -257,3 +257,44 @@ defined by the C standard.
 
 # #                   #    PyGems.com
 #                #https://www.facebook.com/pygems
+
+# An object is called mutable if it can be changed.
+
+# Examples of immutable Data Types:
+
+# ⚡ int, long, float, complex
+# ⚡ str
+# ⚡ tuple
+# ⚡ frozenset
+
+
+# An object is called immutable if it cannot be changed in any way.
+
+# Examples of mutable Data Types:
+
+# ⚡ list
+# ⚡ set
+
+
+# Built in Modules and Functions:
+
+# print(dir(__builtins__))
+
+
+# To know all the functions in a module we can assign the functions list to a variable, and then print the variable.
+
+# import math
+
+# print(dir(math))
+
+
+# For any user defined type, its attributes, its class's attributes can be retrieved using dir().
+
+class Hello():
+     
+     def fullname(self):
+          pass
+
+     
+
+print(dir(Hello))
