@@ -278,23 +278,21 @@
 
 # Built in Modules and Functions:
 
-# print(dir(__builtins__))
+print(dir(__builtins__))
 
 
 # To know all the functions in a module we can assign the functions list to a variable, and then print the variable.
 
-# import math
+import math
 
-# print(dir(math))
+print(dir(math))
 
 
 # For any user defined type, its attributes, its class's attributes can be retrieved using dir().
 
 class Hello():
      
-     def fullname(self):
+     def fullName(self):
           pass
-
-     
 
 print(dir(Hello))
