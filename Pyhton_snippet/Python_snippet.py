@@ -278,21 +278,42 @@
 
 # Built in Modules and Functions:
 
-print(dir(__builtins__))
+# print(dir(__builtins__))
 
 
-# To know all the functions in a module we can assign the functions list to a variable, and then print the variable.
+# # To know all the functions in a module we can assign the functions list to a variable, and then print the variable.
 
-import math
+# import math
 
-print(dir(math))
+# print(dir(math))
 
 
-# For any user defined type, its attributes, its class's attributes can be retrieved using dir().
+# # For any user defined type, its attributes, its class's attributes can be retrieved using dir().
 
-class Hello():
+# class Hello():
      
-     def fullName(self):
-          pass
+#      def fullName(self):
+#           pass
 
-print(dir(Hello))
+# print(dir(Hello))
+
+#Day_14
+
+Single line, inline and multiline comments
+
+-> Single-line comments begin with the hash character (#) and are terminated by the end of line.
+
+Single line comment:
+
+# This is a single line comment in Python
+
+Inline comment:
+
+print("Hello! World") # This is inline comment, prints "Hello! World"
+
+->Multiple comment have """ or ''' on either end. 
+
+"""
+This type of comment spans multiple lines.
+These
+"""
