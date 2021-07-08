@@ -1,1 +1,0 @@
-print(help("__str__"))

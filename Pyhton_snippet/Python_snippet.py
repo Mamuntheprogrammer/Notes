@@ -299,21 +299,36 @@
 
 #Day_14
 
-Single line, inline and multiline comments
+# Single line, inline and multiline comments
 
--> Single-line comments begin with the hash character (#) and are terminated by the end of line.
+# -> Single-line comments begin with the hash character (#) and are terminated by the end of line.
 
-Single line comment:
+# Single line comment:
 
-# This is a single line comment in Python
+# # This is a single line comment in Python
 
-Inline comment:
+# Inline comment:
 
-print("Hello! World") # This is inline comment, prints "Hello! World"
+# print("Hello! World") # This is inline comment, prints "Hello! World"
 
-->Multiple comment have """ or ''' on either end. 
+# ->Multiple comment have """ or ''' on either end. 
 
-"""
-This type of comment spans multiple lines.
-These
-"""
+# """
+# This type of comment spans multiple lines.
+# These
+# """
+
+#Day-15
+#Python Data Types (string) - Part 1
+
+A string is a sequence of characters enclosed in single ('') or double (" ") quotation marks.
+Note that string is ordered and immutable which means you can access it's elements by index but each time one makes any changes
+to the string, completely new string object will be created.
+
+Example :
+
+a_str = 'Hello World'
+b_str = "Hello World"
+
+# #                   #    PyGems.com
+#                #https://www.facebook.com/pygems
