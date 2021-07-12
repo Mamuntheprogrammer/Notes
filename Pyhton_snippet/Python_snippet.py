@@ -382,17 +382,7 @@
 #  format() - Formats specified values in a string
 #  format_map() - Formats specified values in a string
 #  index() -  Searches the string for a specified value and returns the position of where it was found
-#  isalnum() -  Returns True if all characters in the string are alphanumeric
-#  isalpha() -  Returns True if all characters in the string are in the alphabet
-#  isdecimal() -  Returns True if all characters in the string are decimals
-#  isdigit() -  Returns True if all characters in the string are digits
-#  isidentifier() - Returns True if the string is an identifier
-#  islower() -  Returns True if all characters in the string are lower case
-#  isnumeric() -  Returns True if all characters in the string are numeric
-#  isprintable() -  Returns True if all characters in the string are printable
-#  isspace() -  Returns True if all characters in the string are whitespaces
-#  istitle() -  Returns True if the string follows the rules of a title
-#  isupper() -  Returns True if all characters in the string are upper case
+#  
 #  join() - Joins the elements of an iterable to the end of the string
 #  ljust() -  Returns a left justified version of the string
 #  lstrip() - Returns a left trim version of the string
@@ -475,7 +465,19 @@
 # Day-18
 # Python3_Basics
 # Python Data Types (string) - Part 4
-# String methods - capitalize()
+# String methods - Return True or False 
+
+ # isalnum() -  Returns True if all characters in the string are alphanumeric
+ # isalpha() -  Returns True if all characters in the string are in the alphabet
+ # isdecimal() -  Returns True if all characters in the string are decimals
+ # isdigit() -  Returns True if all characters in the string are digits
+ # isidentifier() - Returns True if the string is an identifier
+ # islower() -  Returns True if all characters in the string are lower case
+ # isnumeric() -  Returns True if all characters in the string are numeric
+ # isprintable() -  Returns True if all characters in the string are printable
+ # isspace() -  Returns True if all characters in the string are whitespaces
+ # istitle() -  Returns True if the string follows the rules of a title
+ # isupper() -  Returns True if all characters in the string are upper case
 
 
 
