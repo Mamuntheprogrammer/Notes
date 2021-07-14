@@ -10,7 +10,7 @@ let fun = ()=>10;
 let fun2 = ()=>{
     return 10
 }
-
+ 
 //  This keyword confusion clear , 
 
 var javascript ={
