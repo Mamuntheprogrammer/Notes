@@ -369,39 +369,49 @@
 
 
 ###
-#  capitalize() - Converts the first character to upper case
-
 
 
 #  center() - Returns a centered string
-#  count() -  Returns the number of times a specified value occurs in a string
-#  encode() - Returns an encoded version of the string
-#  endswith() - Returns true if the string ends with the specified value
-#  expandtabs() - Sets the tab size of the string
-#  find() - Searches the string for a specified value and returns the position of where it was found
-#  format() - Formats specified values in a string
-#  format_map() - Formats specified values in a string
-#  index() -  Searches the string for a specified value and returns the position of where it was found
-#  
-#  join() - Joins the elements of an iterable to the end of the string
 #  ljust() -  Returns a left justified version of the string
 #  lstrip() - Returns a left trim version of the string
-#  maketrans() -  Returns a translation table to be used in translations
-#  partition() -  Returns a tuple where the string is parted into three parts
-#  replace() -  Returns a string where a specified value is replaced with a specified value
-#  rfind() -  Searches the string for a specified value and returns the last position of where it was found
-#  rindex() - Searches the string for a specified value and returns the last position of where it was found
+
+
+#  format() - Formats specified values in a string
+#  format_map() - Formats specified values in a string
+
+#  expandtabs() - Sets the tab size of the string
+#  zfill() -  Fills the string with a specified number of 0 values at the beginning
+
+
+
+#  count() -  Returns the number of times a specified value occurs in a string
+#  strip() -  Returns a trimmed version of the string
 #  rjust() -  Returns a right justified version of the string
 #  rpartition() - Returns a tuple where the string is parted into three parts
+
+
+
+#  replace() -  Returns a string where a specified value is replaced with a specified value
+#  endswith() - Returns true if the string ends with the specified value
+#  startswith() - Returns true if the string starts with the specified value
+
+
+
+#  join() - Joins the elements of an iterable to the end of the string
+#  split() -  Splits the string at the specified separator, and returns a list
 #  rsplit() - Splits the string at the specified separator, and returns a list
 #  rstrip() - Returns a right trim version of the string
-#  split() -  Splits the string at the specified separator, and returns a list
 #  splitlines() - Splits the string at line breaks and returns a list
-#  startswith() - Returns true if the string starts with the specified value
-#  strip() -  Returns a trimmed version of the string
+#  partition() -  Returns a tuple where the string is parted into three parts
+
+
 #  translate() -  Returns a translated string
-#  upper() -  Converts a string into upper case
-#  zfill() -  Fills the string with a specified number of 0 values at the beginning
+#  maketrans() -  Returns a translation table to be used in translations
+#  encode() - Returns an encoded version of the string
+
+
+
+
 ###
 
 
@@ -462,7 +472,7 @@
 
 
 
-# Day-18
+# Day-19
 # Python3_Basics
 # Python Data Types (string) - Part 4
 # String methods - Return True or False 
@@ -478,6 +488,45 @@
  # isspace() -  Returns True if all characters in the string are whitespaces
  # istitle() -  Returns True if the string follows the rules of a title
  # isupper() -  Returns True if all characters in the string are upper case
+
+
+
+#                           #    PyGems.com
+#                    #https://www.facebook.com/pygems
+
+# Day-20
+# Python3_Basics
+# Python Data Types (string) - Part 5
+# String methods - index(),rindex(),find(),rfind()
+
+*** index and find methods are almost same except find used for only string but index works with other data types . Another thing both are 
+quit different in terms of error handaling ***
+
+string = "Never underestimate the power of python and Python is an extremely versatile language."
+
+#  index() -  Searches the string for a specified value and returns the position of where it was found
+string.index("power")
+
+output : 24
+
+
+#  rindex() - Searches the string for a specified value and returns the last position of where it was found
+string.index("python")
+
+output : 33
+#  find() - Searches the string for a specified value and returns the position of where it was found
+string.index("power")
+
+output : 24
+#  rfind() -  Searches the string for a specified value and returns the last position of where it was found
+string.index("python")
+
+output : 33
+
+Error handaling :
+string.index("?")  Output : ValueError: substring not found
+
+string.find("?")  Output : -1
 
 
 
