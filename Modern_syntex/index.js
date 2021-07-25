@@ -105,6 +105,14 @@ console.log(result2)
 // this return an array
 // doesn't change main array
 
+const numbers = [45, 4, 9, 16, 25];
+const over18 = numbers.filter(myFunction);
+
+function myFunction(value, index, array) {
+  return value > 18;
+}
+
+
 
 
 
@@ -114,14 +122,55 @@ console.log(result2)
 
 // map Method 
 // return a new array
+// Does not change the main array
+
+// Map Function Syntax
+
+
+let newArray = oldArray.map(function callback(currentValue, index, array) {
+    // return element for new_array
+}, thisArg)
+
+
+
+
+// example 1
 
 var numbers = [1,2,3,4,5,6]
 var resul = numbers.map((a)=> a*2);
 
 console.log(resul)
 
+// example 2
+
+const numbers1 = [45, 4, 9, 16, 25];
+const numbers2 = numbers1.map(myFunction);
+
+document.getElementById("demo").innerHTML = numbers2;
+
+console.log(numbers2);
+function myFunction(value, index, array) {
+  return value * 2;
+}
+
+// Map eaxample 3
+const oldArray = [1, 4, 9, 16];
+
+const double = arr => arr * 2;
+
+const newArray = oldArray.map(double);
+
 
 // Reduce Method important
+// At last return a single value 
+// Mostly used for cumulative operation
+// Reduce with arrow
+
+
+reduce((accumulator, currentValue, index, array) => { ... }, initialValue)
+// Reduce with normal callback
+reduce(function callbackFn(accumulator, currentValue, index, array) { ... }, initialValue)
+
 
 var red = [1,2,3,4,5,6]
 
