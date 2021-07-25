@@ -371,16 +371,6 @@
 ###
 
 
-#  center() - Returns a centered string
-#  ljust() -  Returns a left justified version of the string
-#  lstrip() - Returns a left trim version of the string
-
-
-#  format() - Formats specified values in a string
-#  format_map() - Formats specified values in a string
-
-#  expandtabs() - Sets the tab size of the string
-#  zfill() -  Fills the string with a specified number of 0 values at the beginning
 
 
 
@@ -529,6 +519,96 @@ string.index("?")  Output : ValueError: substring not found
 string.find("?")  Output : -1
 
 
+
+#                           #    PyGems.com
+#                    #https://www.facebook.com/pygems
+
+# Python_365
+# Day-21
+# Python3_Basics
+# Python Data Types (string) - Part 6
+# String Formating methods : format(),format_map()
+#python3
+#pygems
+
+
+
+# format() - Formats specified values in a string
+
+# Syntex : { }.format(string or value)
+
+# Simple example : 
+# str = "I love python"
+
+# print("I love {}".format("python"))
+# print("I {} {}".format("love","python"))
+# print(str.format("python"))
+
+# Output : 
+# I love python
+# I love python
+# I love python
+
+# Positional argument and Keyword arguments:
+
+# print("I {0} {1}".format("love","python"))
+# print("I {1} {0}".format("love","python"))
+
+# print("I {0} {lang}".format("love",lang="python"))
+
+
+# Output : 
+# I love python
+# I python love
+# I love python
+
+# Space : 
+
+# print("{0:5} love python".format("I"))
+
+# Here 0 is the positon of I and 5 the total space size (inclusive the string size)
+
+# Output :
+
+# I    love python // total 5 spces including I
+
+
+
+
+# format_map() - Formats specified values in a string and used to return an dictionary key’s value.
+
+
+# a = {'x':'Faiyaz', 'y':'Karim'}
+  
+
+# print("{x}'s last name is {y}".format_map(a))
+
+# Output:
+
+# John's last name is Wick
+
+
+# #                           #    PyGems.com
+# #                    #https://www.facebook.com/pygems
+
+
+
+
+# Day-22
+# Python3_Basics
+# Python Data Types (string) - Part 7
+# String Formating methods 
+
+
+string = "Never underestimate the power of python and Python is an extremely versatile language."
+
+
+#  center() - Returns a centered string
+#  ljust() -  Returns a left justified version of the string
+#  lstrip() - Returns a left trim version of the string
+
+#  expandtabs() - Sets the tab size of the string
+#  zfill() -  Fills the string with a specified number of 0 values at the beginning
 
 #                           #    PyGems.com
 #                    #https://www.facebook.com/pygems
