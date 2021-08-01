@@ -374,30 +374,6 @@
 
 
 
-#  count() -  Returns the number of times a specified value occurs in a string
-#  strip() -  Returns a trimmed version of the string
-#  rjust() -  Returns a right justified version of the string
-#  rpartition() - Returns a tuple where the string is parted into three parts
-
-
-
-#  replace() -  Returns a string where a specified value is replaced with a specified value
-#  endswith() - Returns true if the string ends with the specified value
-#  startswith() - Returns true if the string starts with the specified value
-
-
-
-#  join() - Joins the elements of an iterable to the end of the string
-#  split() -  Splits the string at the specified separator, and returns a list
-#  rsplit() - Splits the string at the specified separator, and returns a list
-#  rstrip() - Returns a right trim version of the string
-#  splitlines() - Splits the string at line breaks and returns a list
-#  partition() -  Returns a tuple where the string is parted into three parts
-
-
-#  translate() -  Returns a translated string
-#  maketrans() -  Returns a translation table to be used in translations
-#  encode() - Returns an encoded version of the string
 
 
 
@@ -596,19 +572,77 @@ string.find("?")  Output : -1
 
 # Day-22
 # Python3_Basics
-# Python Data Types (string) - Part 7
-# String Formating methods 
+# Python Data Types (string) - Part 8 
+# String methods 
 
 
-string = "Never underestimate the power of python and Python is an extremely versatile language."
+string = "I Love Python."
 
 
 #  center() - Returns a centered string
+
+Syntax :
+string.center(length, character) // character is optional
+
+string.center(20)
+string.center(20,"_")
+
+Output:
+   I Love Python.
+___I Love Python.___
+
+
+#  rjust() -  Returns a right justified version of the string
 #  ljust() -  Returns a left justified version of the string
+
+
+
+                              PyGems.com
+                   https://www.facebook.com/pygems
+
+
+
+
+
+
+
+
+
+#  join() - Joins the elements of an iterable to the end of the string
+#  split() -  Splits the string at the specified separator, and returns a list
+#  rsplit() - Splits the string at the specified separator, and returns a list
+
+#  strip() -  Returns a trimmed version of the string
+#  rstrip() - Returns a right trim version of the string
 #  lstrip() - Returns a left trim version of the string
+
+#  splitlines() - Splits the string at line breaks and returns a list
+#  partition() -  Returns a tuple where the string is parted into three parts
+
+#  rpartition() - Returns a tuple where the string is parted into three parts
+
 
 #  expandtabs() - Sets the tab size of the string
 #  zfill() -  Fills the string with a specified number of 0 values at the beginning
 
 #                           #    PyGems.com
 #                    #https://www.facebook.com/pygems
+
+
+#  count() -  Returns the number of times a specified value occurs in a string
+
+
+
+
+#  replace() -  Returns a string where a specified value is replaced with a specified value
+#  endswith() - Returns true if the string ends with the specified value
+#  startswith() - Returns true if the string starts with the specified value
+
+
+
+
+
+
+#  translate() -  Returns a translated string
+#  maketrans() -  Returns a translation table to be used in translations
+#  encode() - Returns an encoded version of the string
