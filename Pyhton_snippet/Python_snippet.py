@@ -63,7 +63,7 @@
 
 #                 --👀> pip list -u 
 
-
+# ---------------------------------    pip list -v -----------------
 
 # #                    #    PyGems.com
 
@@ -85,7 +85,11 @@
 
 #                 --👀>  pip install -r requirements.txt
     
+# $ pip freeze > requirements.txt
+# Open the text file, replace the == with >=, 
+# and execute:
 
+# $ pip install -r requirements.txt --upgrade
 
 
 
@@ -603,14 +607,55 @@ ___I Love Python.___
 
 
 
-
-
-
+# Day-23
+# Python3_Basics
+# Python Data Types (string) - Part 9
+# String methods 
 
 
 #  join() - Joins the elements of an iterable to the end of the string
+
+Syntax of the join():   separator.join(iterable)
+
+a = ['1','2','3']
+
+print("-".join(a)) 
+
+Output : 1-2-3
+
 #  split() -  Splits the string at the specified separator, and returns a list
-#  rsplit() - Splits the string at the specified separator, and returns a list
+
+Syntax of the split():   str.split(separator, maxsplit)
+
+string = "I Love. Python."
+
+print(string.split()) # If separator is not provided then any white space is a separator.
+
+print(string.split(".")) # Using . separator
+
+print(string.split(".",0))
+
+
+Output :
+
+Without any parameter : ['I', 'Love.', 'Python.']
+Using separator :       ['I Love', ' Python', '']
+Using maxsplit  :       ['I Love', ' Python.']
+
+
+
+
+#  rsplit() - splits string from the right at the specified separator, and returns a list
+
+
+
+
+#                           #    PyGems.com
+#                    #https://www.facebook.com/pygems
+
+
+
+
 
 #  strip() -  Returns a trimmed version of the string
 #  rstrip() - Returns a right trim version of the string

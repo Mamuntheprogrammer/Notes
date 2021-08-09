@@ -1,4 +1,6 @@
-a = {'x':'Faiyaz', 'y':'Karim'}
-  
+a = []
 
-print("{x}'s last name is {y}".format_map(a))
+for x in range(5):
+	a.append(input())
+
+print(a)

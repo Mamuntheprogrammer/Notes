@@ -149,8 +149,6 @@ print(output)
 
 # faster 
 
-
-
 def Oddn():
 	output = []
 	append = output.append
