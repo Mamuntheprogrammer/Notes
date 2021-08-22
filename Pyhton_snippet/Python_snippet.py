@@ -653,41 +653,88 @@ Using maxsplit  :       ['I Love', ' Python.']
 #                           #    PyGems.com
 #                    #https://www.facebook.com/pygems
 
+# Day-24
+# Python3_Basics
+# Python Data Types (string) - Part 10
+# String methods 
 
+txt = "     I love Python      "
 
+#  strip() -  Returns the string by removing both the leading and the trailing characters 
 
+print(txt.strip())
+Output  : I Love Python
 
-#  strip() -  Returns a trimmed version of the string
 #  rstrip() - Returns a right trim version of the string
 #  lstrip() - Returns a left trim version of the string
 
+txt2 = "One\nTwo\nThree"
+
 #  splitlines() - Splits the string at line breaks and returns a list
-#  partition() -  Returns a tuple where the string is parted into three parts
+print(txt2.splitlines())
+Output : ['One', 'Two', 'Three']
 
-#  rpartition() - Returns a tuple where the string is parted into three parts
-
-
-#  expandtabs() - Sets the tab size of the string
 #  zfill() -  Fills the string with a specified number of 0 values at the beginning
+
+string = "Mango"
+
+print(string.zfill(10))
+Output : 00000Mango
+
 
 #                           #    PyGems.com
 #                    #https://www.facebook.com/pygems
 
 
+
+# Day-25
+# Python3_Basics
+# Python Data Types (string) - Part 11
+# String methods 
+
+
+
 #  count() -  Returns the number of times a specified value occurs in a string
 
+Syntax : string.count(substring, startIndex, endIndex) 
+Note : startIndex, endIndex are optional
 
+txt = "python is popular programming language"
+print(txt.count('p'))
 
+print(txt.count('p',5,20))
+Output :
+4
+3
 
 #  replace() -  Returns a string where a specified value is replaced with a specified value
+Syntax : str.replace(old, new  count) 
+Note :Cont is optional
+
+txt = "abcd abcd abcd"
+
+print(txt.replace('abcd','ABCD'))
+print(txt.replace('abcd','ABCD',2))
+
+
 #  endswith() - Returns true if the string ends with the specified value
+
 #  startswith() - Returns true if the string starts with the specified value
 
+#                           #    PyGems.com
+#                    #https://www.facebook.com/pygems
 
 
 
+# Day-26
+# Python3_Basics
+# Python Data Types (string) - Part 12 (Last Part)
+# String methods 
 
 
 #  translate() -  Returns a translated string
 #  maketrans() -  Returns a translation table to be used in translations
 #  encode() - Returns an encoded version of the string
+
+#                           #    PyGems.com
+#                    #https://www.facebook.com/pygems

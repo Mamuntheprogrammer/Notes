@@ -1,6 +1,4 @@
-a = []
+txt = "abcd abcd abcd"
 
-for x in range(5):
-	a.append(input())
-
-print(a)
+print(txt.replace('abcd','ABCD'))
+print(txt.replace('abcd','ABCD',2))
