@@ -682,15 +682,15 @@ print(string.zfill(10))
 Output : 00000Mango
 
 
-#                           #    PyGems.com
-#                    #https://www.facebook.com/pygems
+                          #    PyGems.com
+                   #https://www.facebook.com/pygems
 
 
-
+# Python_365
 # Day-25
 # Python3_Basics
-# Python Data Types (string) - Part 11
-# String methods 
+# Python Data Types (string) - Part 11 
+# String methods (Last Part)
 
 
 
@@ -716,25 +716,11 @@ txt = "abcd abcd abcd"
 print(txt.replace('abcd','ABCD'))
 print(txt.replace('abcd','ABCD',2))
 
-
-#  endswith() - Returns true if the string ends with the specified value
-
-#  startswith() - Returns true if the string starts with the specified value
-
-#                           #    PyGems.com
-#                    #https://www.facebook.com/pygems
+Output:
+ABCD ABCD ABCD
+ABCD ABCD abcd
 
 
-
-# Day-26
-# Python3_Basics
-# Python Data Types (string) - Part 12 (Last Part)
-# String methods 
-
-
-#  translate() -  Returns a translated string
-#  maketrans() -  Returns a translation table to be used in translations
-#  encode() - Returns an encoded version of the string
 
 #                           #    PyGems.com
 #                    #https://www.facebook.com/pygems
