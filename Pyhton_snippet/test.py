@@ -1,4 +1,8 @@
-txt = "abcd abcd abcd"
+def reverse_recursion(s):
+    if len(s) == 0:
+        return s
+    else:
+        return reverse_recursion(s[1:]) + s[0]
 
-print(txt.replace('abcd','ABCD'))
-print(txt.replace('abcd','ABCD',2))
+
+print(reverse_recursion("12345"))

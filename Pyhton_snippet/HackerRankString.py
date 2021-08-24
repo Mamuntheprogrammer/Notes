@@ -39,8 +39,8 @@ print(''.join(list(map(lambda x: x.upper() if x.islower() else x.lower(),"Hello 
 
 
 
-                           #    PyGems.com
-                 #https://www.facebook.com/pygems
+                              PyGems.com
+                 https://www.facebook.com/pygems
 
 
 
@@ -50,20 +50,26 @@ print(''.join(list(map(lambda x: x.upper() if x.islower() else x.lower(),"Hello 
 
 
 # Python_365
-# Day-26
+# Day-27
 # Python3_Basics
 # Python Data Types : String
 # Solving String related problems: (src : hackerrank) 
-# Problem title : 
-
+# Problem title :String Split and Join
 
 """ 
-Problem description : 
+Problem description : You are given a string. Split the string on a " " (space) delimiter and join using a - hyphen.
 
-Input and Output example :
-
-input : 
-
-Output : 
+Sample Input: this is a string   
+Sample Output: this-is-a-string
 
 """
+
+def split_and_join(line):
+    return "-".join(line.split(" "))
+
+
+split_and_join("this is a string")
+
+
+                              PyGems.com
+                 https://www.facebook.com/pygems
