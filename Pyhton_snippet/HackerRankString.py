@@ -73,3 +73,53 @@ split_and_join("this is a string")
 
                               PyGems.com
                  https://www.facebook.com/pygems
+
+
+
+# Python_365
+
+# Day-28
+
+# Python3_Basics
+
+# Python Data Types : String
+
+# Solving String related problems: (src : hackerrank) 
+
+# Problem title : Find a string
+
+#hackerrank 
+
+#python 
+""" 
+Problem description : In this challenge, the user enters a string and a substring.
+ You have to print the number of times that the substring occurs in the given string. 
+ String traversal will take place from left to right, not from right to left.
+
+
+Sample Input:
+
+ABCDCDC
+CDC
+
+Sample Output :
+
+2
+
+"""
+
+def count_substring(a, b):
+    count=0
+    for x in range(len(a)-len(b)+1):
+        if a[x:x+len(b)]==b:
+            count+=1
+    return count
+
+count_substring("ABCDCDC","CDC")
+
+Output : 2
+
+
+
+                              PyGems.com
+                 https://www.facebook.com/pygems
