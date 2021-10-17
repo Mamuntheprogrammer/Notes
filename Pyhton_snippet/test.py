@@ -1,4 +1,5 @@
-table = [["Name","Marks"],["Hasan",350]]
-for x in table:
+import keyword
+a=keyword.kwlist
 
-    print(("{:>10} {:>10}").format(*x))
+for x in a:
+    print(x)
